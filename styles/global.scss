@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@mixin flexBox($dir: row, $justify: center, $align: center) {
+    display: flex;
+    flex-direction: $dir;
+    justify-content: $justify;
+    align-items: $align;
+}
+@import "./varibles";
+@import "../components/Header/header";
+@import "../components/Menu/menu";

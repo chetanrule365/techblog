@@ -1,0 +1,12 @@
+#menu {
+    position: absolute;
+    left: -500px;
+    top: 0;
+    width: 500px;
+    height: 100vh;
+    background: pink;
+    transition: 0.5s;
+    &.open {
+        left: 0;
+    }
+}
